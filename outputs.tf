@@ -13,11 +13,6 @@ output "id" {
   value       = local.ordered_id
 }
 
-output "name" {
-  description = "Name of workload."
-  value       = local.vars["name"]
-}
-
 output "namespace" {
   description = "Namespace of workload."
   value       = local.vars["namespace"]

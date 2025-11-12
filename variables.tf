@@ -16,12 +16,6 @@ variable "account" {
   default     = null
 }
 
-variable "name" {
-  type        = string
-  description = "stack name"
-  default     = null
-}
-
 variable "delimiter" {
   type        = string
   description = "delimiter, which could be used between name, namespace and env."
